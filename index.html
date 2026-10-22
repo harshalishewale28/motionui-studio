@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MotionUI Studio — creative web design, interactive experiences and modern UI/UX.">
+  <title>MotionUI Studio | Design Beyond Limits</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home"><span class="logo-icon">M</span> motion<span>ui.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#work">Our work</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span class="status-dot"></span> CREATIVE DIGITAL STUDIO</div>
+        <h1>Design that<br>moves <span class="gradient-text">people.</span></h1>
+        <p class="hero-description">We craft beautiful digital experiences that blend bold ideas, thoughtful UX and delightful motion.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore our work <span>↗</span></a>
+          <a class="button button-ghost" href="#about"><span class="play-icon">▶</span> Discover our story</a>
+        </div>
+        <div class="hero-note"><span class="avatar-stack"><i>✦</i><i>✧</i><i>◈</i></span><span>Made for the next generation of the web.</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-large"></div>
+        <div class="orbit orbit-small"></div>
+        <div class="visual-core"><span class="core-star">✳</span></div>
+        <div class="floating-card card-top"><span class="mini-icon">✦</span><span>Creative<br><b>Ideas first</b></span></div>
+        <div class="floating-card card-bottom"><span class="mini-chart">↗</span><span>Digital impact<br><b>Built to grow</b></span></div>
+        <span class="spark spark-one">✦</span>
+        <span class="spark spark-two">✧</span>
+      </div>
+      <a href="#services" class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="trusted section reveal" aria-label="Studio capabilities">
+      <p>CREATIVITY MEETS TECHNOLOGY</p>
+      <div class="trust-list"><span>✳ UI / UX</span><span>✦ WEB DESIGN</span><span>◈ MOTION</span><span>↗ DEVELOPMENT</span></div>
+    </section>
+
+    <section class="section content-section" id="services">
+      <div class="section-heading reveal">
+        <span class="eyebrow">WHAT WE DO</span>
+        <h2>Good design feels right.<br><span class="muted-text">Great design works.</span></h2>
+        <p>Every detail has a purpose. Every interaction has a reason.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="service-icon purple">◈</div><span class="card-number">01 / DESIGN</span>
+          <h3>UI/UX Design</h3><p>Intuitive interfaces, user journeys and digital products built around real people.</p>
+          <a href="#contact" class="text-link">Explore service ↗</a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon blue">✳</div><span class="card-number">02 / MOTION</span>
+          <h3>Motion Design</h3><p>Smooth transitions and meaningful animations that make every interaction memorable.</p>
+          <a href="#contact" class="text-link">Explore service ↗</a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon pink">⌘</div><span class="card-number">03 / BUILD</span>
+          <h3>Web Development</h3><p>Responsive, accessible websites with clean code and thoughtful performance.</p>
+          <a href="#contact" class="text-link">Explore service ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section content-section work-section" id="work">
+      <div class="section-heading reveal">
+        <span class="eyebrow">SELECTED PROJECTS</span>
+        <h2>Ideas brought <span class="gradient-text">to life.</span></h2>
+        <p>A concept portfolio showcasing design, interaction and creativity.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <a href="#contact" class="project-art art-one" aria-label="Discuss the Nova Finance project">
+            <div class="art-orb"></div><div class="finance-panel"><span>nova / finance</span><small>YOUR FINANCIAL FUTURE</small><strong>₹ 84,250</strong><div class="fake-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+            <span class="art-label">FINTECH / DASHBOARD</span>
+          </a>
+          <div class="project-info"><div><h3>Nova Finance</h3><p>Finance dashboard concept</p></div><a href="#contact" class="round-arrow" aria-label="Discuss Nova Finance">↗</a></div>
+        </article>
+        <article class="project-card reveal">
+          <a href="#contact" class="project-art art-two" aria-label="Discuss the Forma wellness project">
+            <div class="forma-ring"></div><div class="forma-copy"><small>FIND YOUR BALANCE</small><strong>Feel good.<br>Move better.</strong><span>FORM / WELLNESS</span></div><span class="art-label">WELLNESS / BRAND</span>
+          </a>
+          <div class="project-info"><div><h3>Forma Wellness</h3><p>Wellness brand experience</p></div><a href="#contact" class="round-arrow" aria-label="Discuss Forma Wellness">↗</a></div>
+        </article>
+        <article class="project-card reveal">
+          <a href="#contact" class="project-art art-three" aria-label="Discuss the Orbit analytics project">
+            <div class="orbit-art"><i></i><i></i><i></i><b>O</b></div><div class="orbit-copy"><small>SEE THE BIG PICTURE</small><strong>Data, in<br>motion.</strong></div><span class="art-label">SAAS / ANALYTICS</span>
+          </a>
+          <div class="project-info"><div><h3>Orbit Analytics</h3><p>Data platform concept</p></div><a href="#contact" class="round-arrow" aria-label="Discuss Orbit Analytics">↗</a></div>
+        </article>
+      </div>
+      <p class="portfolio-note">These are fictional concept projects created to demonstrate the website design.</p>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-visual reveal"><div class="about-shape">m<span>✳</span></div><div class="about-badge">THOUGHTFUL BY DESIGN<br><b>EST. 2026</b></div></div>
+      <div class="about-copy reveal">
+        <span class="eyebrow">A LITTLE ABOUT US</span>
+        <h2>Less ordinary.<br><span class="gradient-text">More meaningful.</span></h2>
+        <p>MotionUI Studio is a creative digital agency concept built around one simple belief: technology should feel human.</p>
+        <p>We bring strategy, visual storytelling and interactive development together to create digital experiences people love using.</p>
+        <div class="stats">
+          <div><strong data-count="24">0</strong><span>Creative ideas</span></div>
+          <div><strong data-count="12">0</strong><span>Design explorations</span></div>
+          <div><strong data-count="100" data-suffix="%">0</strong><span>Curiosity</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-box reveal">
+        <span class="eyebrow">HAVE AN IDEA?</span>
+        <h2>Let's make something<br><span class="gradient-text">unforgettable.</span></h2>
+        <p>Have a project in mind? Send us a message and let's start a conversation.</p>
+        <form id="contactForm" class="contact-form">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required minlength="2">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="message">Tell us about your idea</label>
+          <textarea id="message" name="message" rows="4" placeholder="What would you like to create?" required minlength="10"></textarea>
+          <button class="button button-primary submit-button" type="submit">Validate my message <span>↗</span></button>
+          <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home"><span class="logo-icon">M</span> motion<span>ui.</span></a>
+    <p>Designed with intention. Built with curiosity.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+    <small>© <span id="year"></span> MotionUI Studio · Portfolio concept</small>
+  </footer>
+</body>
+</html>
