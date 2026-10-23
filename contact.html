@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | MotionUI Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="index.html">MOTION<span>UI.</span></a>
+  <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+  <nav class="nav">
+    <a href="index.html">Home</a><a href="services.html">Services</a>
+    <a href="work.html">Our Work</a><a href="about.html">About</a>
+    <a class="nav-button active" href="contact.html">Let's Talk ↗</a>
+  </nav>
+</header>
+<main>
+  <section class="inner-hero container reveal">
+    <p class="eyebrow">CONTACT US</p>
+    <h1>Good things start<br>with <span class="gradient">a hello.</span></h1>
+    <p class="description">Have a project idea, question or challenge? Tell us a little about it.</p>
+  </section>
+  <section class="section container contact-layout">
+    <div class="contact-copy reveal">
+      <div class="icon purple">✳</div>
+      <h2>Let's make something meaningful.</h2>
+      <p>Share a few details and think through your next step.</p>
+      <p>✉ hello@motionui.example</p>
+      <p>↗ Monday–Friday · 10am–6pm</p>
+      <p class="small-note">Demo form only. It does not send an email to a real inbox.</p>
+    </div>
+    <form class="contact-form reveal" id="contactForm">
+      <label for="name">Your name</label>
+      <input id="name" name="name" placeholder="Your name" required minlength="2">
+      <label for="email">Email address</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required>
+      <label for="service">What do you need?</label>
+      <select id="service" name="service" required>
+        <option value="">Choose a service</option>
+        <option>UI/UX Design</option><option>Website Design</option>
+        <option>Web Development</option><option>Something else</option>
+      </select>
+      <label for="message">Your message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Tell us about your idea..." required minlength="10"></textarea>
+      <button type="submit" class="button primary">Validate message ↗</button>
+      <p id="formMessage" class="form-message" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+<footer class="footer"><a class="logo" href="index.html">MOTION<span>UI.</span></a><p>Thoughtful by design.</p><div><a href="services.html">Services</a><a href="work.html">Work</a><a href="contact.html">Contact</a></div><small>© <span class="year"></span> MotionUI Studio</small></footer>
+</body>
+</html>
